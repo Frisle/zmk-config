@@ -31,10 +31,10 @@
             //                    | GUI | LWR | ALT/ENT |   | HYPER/SPC | BKSP  | RSE |
 
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y       &kp U  &kp I             &kp O    &kp P     &kp BACKSPACE
-&kp TAB     &kp A  &kp S  &kp D     &kp F  &kp G        &kp H       &kp J  &kp K             &kp L    &kp SEMI  &kp SINGLE_QUOTE
-&kp LSHFT   &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N       &kp M  &kp COMMA         &kp DOT  &kp FSLH  &kp RSHFT
-                          &kp LGUI  &mo 1  &kp SPACE    &kp RETURN  &mo 2  &kp LEFT_CONTROL
+&kp ESCAPE  &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y       &kp U  &kp I             &kp O    &kp P     &kp BACKSPACE
+&kp TAB     &kp A  &kp S  &kp D         &kp F  &kp G        &kp H       &kp J  &kp K             &kp L    &kp SEMI  &kp SINGLE_QUOTE
+&kp LSHFT   &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N       &kp M  &kp COMMA         &kp DOT  &kp FSLH  &kp RSHFT
+                          &kp LEFT_ALT  &mo 1  &kp SPACE    &kp RETURN  &mo 2  &kp LEFT_CONTROL
             >;
         };
 
@@ -46,19 +46,19 @@
             //                    |     |     |    |                  |     |     |     |
 
             bindings = <
-&trans   &trans  &trans        &trans         &trans       &trans    &kp F6          &kp F7    &kp F8    &kp F9     &kp F10       &trans
-&kp TAB  &trans  &kp LCTRL     &kp END        &kp HOME     &trans    &trans          &kp LEFT  &kp UP    &kp RIGHT  &kp LCTRL     &trans
-&trans   &trans  &kp LEFT_ALT  &kp PAGE_DOWN  &kp PAGE_UP  &trans    &trans          &trans    &kp DOWN  &trans     &kp LEFT_ALT  &trans
-                               &kp LEFT_GUI   &mo 1        &trans    &kp LEFT_SHIFT  &trans    &trans
+&kp F1   &kp F2    &kp F3     &kp F4        &kp F5     &kp F6       &kp F7          &kp F8    &kp F9    &kp F10    &kp F11       &kp F12
+&kp TAB  &kp LALT  &kp PG_UP  &kp END       &kp HOME   &kp LG(S)    &trans          &kp LEFT  &kp UP    &kp RIGHT  &kp LCTRL     &trans
+&trans   &trans    &kp PG_DN  &trans        &kp LG(E)  &kp LG(V)    &trans          &trans    &kp DOWN  &trans     &kp LEFT_ALT  &trans
+                              &kp LEFT_GUI  &mo 1      &trans       &kp LEFT_SHIFT  &trans    &trans
             >;
         };
 
         symbols {
             bindings = <
-&trans  &kp EXCL  &kp AT_SIGN  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans       &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans       &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                               &trans  &trans  &trans    &trans  &trans  &trans
+&kp EXCL   &kp AT_SIGN  &kp HASH           &kp DOLLAR  &kp PERCENT    &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS      &kp UNDERSCORE
+&kp GRAVE  &kp SQT      &kp DOUBLE_QUOTES  &kp COLON   &kp SEMICOLON  &kp PERIOD    &trans         &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS       &kp EQUAL
+&trans     &trans       &trans             &trans      &trans         &kp COMMA     &trans         &kp PIPE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN  &kp GREATER_THAN
+                                           &trans      &trans         &trans        &trans         &trans        &trans
             >;
         };
     };
