@@ -46,10 +46,10 @@
             //                    |     |     |    |                  |     |     |     |
 
             bindings = <
-&kp LC(Z)  &kp LC(X)       &kp LC(C)  &kp LC(V)         &kp HOME         &kp END           &kp F7          &kp F8      &kp F9         &kp F10       &kp F11  &kp F12
-&kp TAB    &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW      &kp RIGHT_ARROW  &kp PAGE_UP       &kp LEFT_GUI    &trans      &kp BACKSPACE  &kp LEFT_ALT  &trans   &trans
-&kp CLCK   &trans          &kp LG(S)  &kp LG(V)         &kp LG(E)        &kp PAGE_DOWN     &trans          &trans      &trans         &trans        &trans   &trans
-                                      &kp LEFT_CONTROL  &trans           &kp LEFT_SHIFT    &kp LEFT_SHIFT  &kp RETURN  &trans
+&kp LC(Z)  &kp LC(X)       &kp LC(C)  &kp LC(V)     &kp HOME         &kp END           &kp F1        &kp F2      &kp F3            &kp F4  &kp F7  &kp F10
+&kp TAB    &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP       &kp LEFT_GUI  &kp BSPC    &kp LALT          &kp F5  &kp F8  &kp F11
+&kp CLCK   &trans          &kp LG(S)  &kp LG(V)     &kp LG(E)        &kp PAGE_DOWN     &trans        &trans      &trans            &kp F6  &kp F9  &kp F12
+                                      &kp LSHFT     &trans           &kp LEFT_SHIFT    &trans        &kp RETURN  &kp LEFT_CONTROL
             >;
         };
 
