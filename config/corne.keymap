@@ -46,10 +46,10 @@
             //                    |     |     |    |                  |     |     |     |
 
             bindings = <
-&kp LC(Z)  &kp LC(X)       &kp LC(C)  &kp LC(V)     &kp HOME         &kp END           &kp F1        &kp F2      &kp F3            &kp F4  &kp F7  &kp F10
-&kp TAB    &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP       &kp LEFT_GUI  &kp BSPC    &kp LALT          &kp F5  &kp F8  &kp F11
-&kp CLCK   &kp DELETE      &kp LG(S)  &kp LG(V)     &kp LG(E)        &kp PAGE_DOWN     &trans        &trans      &trans            &kp F6  &kp F9  &kp F12
-                                      &kp LSHFT     &trans           &kp LEFT_SHIFT    &trans        &kp RETURN  &kp LEFT_CONTROL
+&kp LC(Z)  &kp LC(X)       &kp LC(C)  &kp LC(V)     &kp HOME         &kp END           &trans        &trans    &trans            &trans     &trans     &trans
+&kp TAB    &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP       &kp LEFT_GUI  &kp BSPC  &kp LALT          &kp LG(S)  &kp LG(V)  &kp LG(E)
+&kp CLCK   &kp DELETE      &trans     &trans        &trans           &kp PAGE_DOWN     &trans        &trans    &trans            &trans     &trans     &trans
+                                      &kp LSHFT     &trans           &kp LEFT_SHIFT    &trans        &trans    &kp LEFT_CONTROL
             >;
         };
 
@@ -58,7 +58,16 @@
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6    &kp NUMBER_7   &kp NUMBER_8           &kp NUMBER_9      &kp NUMBER_0       &kp MINUS      &kp UNDERSCORE
 &kp GRAVE     &kp SQT       &kp DOUBLE_QUOTES  &kp COLON     &kp SEMICOLON  &kp CARET       &kp ASTERISK   &kp LEFT_PARENTHESIS   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PLUS       &kp EQUAL
 &kp EXCL      &kp AT_SIGN   &kp HASH           &kp DOLLAR    &kp PERCENT    &kp PIPE        &kp AMPERSAND  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN
-                                               &trans        &trans         &trans          &trans         &trans                 &trans
+                                               &trans        &mo 3          &trans          &trans         &trans                 &trans
+            >;
+        };
+
+        f_layer {
+            bindings = <
+&trans  &trans    &kp LGUI   &kp ENTER  &trans     &trans      &trans  &trans  &kp F1  &kp F4  &kp F7  &kp F10
+&trans  &kp LALT  &kp LSHFT  &kp TAB    &kp LCTRL  &kp LALT    &trans  &trans  &kp F2  &kp F5  &kp F8  &kp F11
+&trans  &trans    &trans     &trans     &trans     &trans      &trans  &trans  &kp F3  &kp F6  &kp F9  &kp F12
+                             &trans     &trans     &trans      &trans  &trans  &trans
             >;
         };
     };
