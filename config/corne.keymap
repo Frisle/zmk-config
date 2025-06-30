@@ -55,10 +55,10 @@
             //                    |     |     |    |                  |     |     |     |
 
             bindings = <
-&kp LC(Z)  &kp LC(X)       &kp LC(C)  &kp LC(V)     &kp HOME         &kp END          &trans        &trans    &trans            &trans     &trans     &trans
-&kp TAB    &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP      &kp LEFT_GUI  &kp BSPC  &kp LALT          &kp LG(S)  &kp LG(V)  &kp LG(E)
-&kp CLCK   &kp DELETE      &trans     &trans        &trans           &kp PAGE_DOWN    &trans        &trans    &trans            &trans     &trans     &trans
-                                      &trans        &trans           &trans           &kp LSHFT     &trans    &kp LEFT_CONTROL
+&kp LC(Z)  &kp LC(X)   &kp LC(C)  &kp LC(V)     &kp HOME         &kp END          &trans        &trans    &trans            &trans     &trans     &trans
+&kp TAB    &kp LSHFT   &kp LEFT   &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP      &kp LEFT_GUI  &kp BSPC  &kp LALT          &kp LG(S)  &kp LG(V)  &kp LG(E)
+&kp CLCK   &kp DELETE  &trans     &kp DOWN      &trans           &kp PAGE_DOWN    &trans        &trans    &trans            &trans     &trans     &trans
+                                  &trans        &trans           &trans           &kp LSHFT     &trans    &kp LEFT_CONTROL
             >;
         };
 
