@@ -62,6 +62,26 @@
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <40 32>;
         };
+
+        Question_mark {
+            bindings = <&kp QUESTION>;
+            key-positions = <19 20>;
+        };
+
+        Exclamation_mark {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <7 8>;
+        };
+
+        Underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <31 32>;
+        };
+
+        Dash {
+            bindings = <&kp MINUS>;
+            key-positions = <8 9>;
+        };
     };
 
     keymap {
@@ -99,10 +119,10 @@
 
         symbols {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6    &kp N0         &kp N1  &kp N2  &kp N3  &kp MINUS      &kp UNDERSCORE
-&kp GRAVE     &kp SQT       &kp DOUBLE_QUOTES  &kp COLON     &kp SEMICOLON  &kp CARET       &kp ASTERISK   &kp N4  &kp N5  &kp N6  &kp PLUS       &kp EQUAL
-&kp EXCL      &kp AT_SIGN   &kp HASH           &kp DOLLAR    &kp PERCENT    &kp PIPE        &kp AMPERSAND  &kp N7  &kp N8  &kp N9  &kp LESS_THAN  &kp GREATER_THAN
-                                               &trans        &mo 3          &trans          &trans         &trans  &trans
+&trans     &trans       &trans             &trans      &trans         &trans       &kp N0         &kp N1  &kp N2  &kp N3  &kp MINUS      &kp UNDERSCORE
+&kp GRAVE  &kp SQT      &kp DOUBLE_QUOTES  &kp COLON   &kp SEMICOLON  &kp CARET    &kp ASTERISK   &kp N4  &kp N5  &kp N6  &kp PLUS       &kp EQUAL
+&kp EXCL   &kp AT_SIGN  &kp HASH           &kp DOLLAR  &kp PERCENT    &kp PIPE     &kp AMPERSAND  &kp N7  &kp N8  &kp N9  &kp LESS_THAN  &kp GREATER_THAN
+                                           &trans      &mo 3          &trans       &trans         &trans  &trans
             >;
         };
 
