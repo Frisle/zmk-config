@@ -81,7 +81,7 @@
 
         Dash {
             bindings = <&kp MINUS>;
-            key-positions = <8 9>;
+            key-positions = <20 21>;
         };
 
         backspace {
@@ -92,6 +92,16 @@
         mouse_layer {
             bindings = <&mo 4>;
             key-positions = <37 29>;
+        };
+
+        forward_slash {
+            bindings = <&kp SLASH>;
+            key-positions = <37 5>;
+        };
+
+        back_slash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <37 4>;
         };
     };
 
