@@ -114,6 +114,11 @@
             bindings = <&bt BT_SEL 1>;
             key-positions = <12 36>;
         };
+
+        BluetoothClear {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <24 36 41 35>;
+        };
     };
 
     keymap {
