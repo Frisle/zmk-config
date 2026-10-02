@@ -149,7 +149,7 @@
             bindings = <
 &kp LC(Z)      &kp LC(X)   &kp LC(C)  &kp LC(V)     &kp HOME         &kp END          &trans        &trans          &trans            &trans        &trans     &trans
 &kp TAB        &kp LSHFT   &kp LEFT   &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP      &kp LEFT_GUI  &kp BSPC        &kp LALT          &kp LG(S)     &kp LG(V)  &kp LG(E)
-&kp LS(LC(Z))  &kp DELETE  &trans     &kp DOWN      &kp LC(F)        &kp PAGE_DOWN    &kp LA(F4)    &kp LEFT_SHIFT  &kp LCTRL         &kp LEFT_ALT  &kp TAB    &trans
+&kp LS(LC(Z))  &kp DELETE  &trans     &kp DOWN      &kp CAPSLOCK     &kp PAGE_DOWN    &kp LA(F4)    &kp LEFT_SHIFT  &kp LCTRL         &kp LEFT_ALT  &kp TAB    &trans
                                       &trans        &trans           &trans           &kp LSHFT     &trans          &kp LEFT_CONTROL
             >;
         };
